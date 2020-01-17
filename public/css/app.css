@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://use.fontawesome.com/releases/v5.6.1/css/all.css);.blue {
+  color: #3490dc;
+}
+
+.indigo {
+  color: #6574cd;
+}
+
+.purple {
+  color: #9561e2;
+}
+
+.pink {
+  color: #f66d9b;
+}
+
+.red {
+  color: #e3342f;
+}
+
+.orange {
+  color: #f6993f;
+}
+
+.yellow {
+  color: #ffed4a;
+}
+
+.green {
+  color: #38c172;
+}
+
+.teal {
+  color: #4dc0b5;
+}
+
+.cyan {
+  color: #6cb2eb;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main_content {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  display: -webkit-flex;
+  /* Safari */
+  /* Safari 6.1+ */
+  flex-wrap: wrap;
+  padding: 0 7%;
+}
+
+.multiselect__content {
+  z-index: 9999;
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.multiselect__tags {
+  border: 1px solid grey;
+}
+
+.content {
+  margin-left: 17%;
+  margin-top: 1%;
+  display: block;
+  padding: 0 20px 20px;
+  min-height: 300px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/******
+======Buttons=====
+****/
+
+.button {
+  display: inline-block;
+  padding: 0 24px;
+  height: 40px;
+  line-height: 40px;
+  font-family: "Montserrat", Tahoma, Arial, sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  background: #909090;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
+
+.button:not(.button-outline) {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-primary:not(.button-outline) {
+  background-color: #00437c;
+}
+
+.button-icon {
+  padding-left: 40px;
+  position: relative;
+}
+
+.button-icon:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  margin-top: -8px;
+  -webkit-mask-repeat: no-repeat;
+  -o-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -o-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center center;
+  -o-mask-position: center center;
+  mask-position: center center;
+}
+
+/******
+ -------Buttons with icons--------
+*****/
+
+.button-icon-add:before {
+  -webkit-mask-image: url(/images/add.png?6241a81c3738805894d9af73c13b98d1);
+  -moz-mask-image: url(/images/add.png?6241a81c3738805894d9af73c13b98d1);
+  -ms-mask-image: url(/images/add.png?6241a81c3738805894d9af73c13b98d1);
+  -o-mask-image: url(/images/add.png?6241a81c3738805894d9af73c13b98d1);
+  mask-image: url(/images/add.png?6241a81c3738805894d9af73c13b98d1);
+}
+
+.icon-location:before {
+  content: "";
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  -webkit-mask-repeat: no-repeat;
+  -o-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -o-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center center;
+  -o-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-image: url(/images/location.png?2ed5b801be52ee617c536e1ef06bc958);
+  -moz-mask-image: url(/images/location.png?2ed5b801be52ee617c536e1ef06bc958);
+  -ms-mask-image: url(/images/location.png?2ed5b801be52ee617c536e1ef06bc958);
+  -o-mask-image: url(/images/location.png?2ed5b801be52ee617c536e1ef06bc958);
+  mask-image: url(/images/location.png?2ed5b801be52ee617c536e1ef06bc958);
+}
+
+.cart-img {
+  background-image: url(/images/cart.png?7623ac8ad6e5af04f8956e2562e58fdf);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-exact-active {
+  background-color: #345a82;
+  color: white !important;
+}
+

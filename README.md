@@ -8,4 +8,4 @@ Website is online Marketplace for pharmacies and people to sell their products o
 - If you are user you can sell unnecessary medicine in your home and make some money.
 - Has good social effect for social vulnerable people and afford them to buy medicine by lower price.
 
-
+Front was written by vue, back php laravel
